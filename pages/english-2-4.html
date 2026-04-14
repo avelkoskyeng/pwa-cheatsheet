@@ -1,0 +1,998 @@
+<!doctype html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#fff" name="theme-color" />
+    <link href="../manifest.webmanifest" rel="manifest" />
+    <link href="../css/global-styles.css" rel="stylesheet" />
+    <link href="../css/search.css" rel="stylesheet" />
+    <link href="../css/subject.css" rel="stylesheet" />
+    <link href="../css/english.css" rel="stylesheet" />
+    <title>English24</title>
+  </head>
+  <body>
+    <svg
+      hidden
+      aria-hidden="true"
+      style="display: none"
+      xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-arrow" viewBox="0 0 16 16" fill="none">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L8.70711 14.7071L7.29289 13.2929L11.5858 9H2V7L11.5858 7L7.29289 2.70711L8.70711 1.29289L14.7071 7.29289Z"
+          fill="black"
+          fill-opacity="0.24" />
+      </symbol>
+    </svg>
+
+    <nav class="search-shell">
+      <div class="search-box" id="search-box">
+        <span aria-hidden="true" class="search-box__icon">
+          <img src="../icons/zoom.svg" />
+        </span>
+        <input
+          autocomplete="off"
+          class="search-box__input font-s"
+          id="site-search"
+          placeholder="Поиск по шпаргалкам"
+          type="search" />
+        <button
+          aria-label="Очистить поиск"
+          class="search-box__clear"
+          type="button">
+          <img src="../icons/close-circle-grey.svg" />
+        </button>
+        <div
+          aria-live="polite"
+          class="search-results"
+          hidden=""
+          id="search-results"></div>
+      </div>
+    </nav>
+    <header class="header header--subject">
+      <div class="header__content">
+        <a class="header__return-btn" href="../">
+          <img src="../icons/arw-left.svg" />
+        </a>
+        <div class="header__text">
+          <h1 class="header__title font-m">Английский</h1>
+          <h2 class="header__subtitle font-s">2-4 класс</h2>
+        </div>
+        <div style="visibility: hidden"></div>
+      </div>
+    </header>
+    <div aria-hidden="true" class="page-spacer"></div>
+    <main>
+      <section
+        class="search-results"
+        data-grade-band="2-4"
+        data-page="english-2-4.html"
+        data-subject-code="eng"
+        id="page-toc"></section>
+      <section class="cheats__list">
+        <div class="cheats__item" id="alphabet">
+          <h3 class="cheat__title font-xxl">Алфавит</h3>
+          <div class="cheat__content">
+            <section class="info-list info-list--row">
+              <div class="info-list__item --bg-grey">A a</div>
+              <div class="info-list__item --bg-grey">B b</div>
+              <div class="info-list__item --bg-grey">C c</div>
+              <div class="info-list__item --bg-grey">D d</div>
+              <div class="info-list__item --bg-grey">E e</div>
+              <div class="info-list__item --bg-grey">F f</div>
+              <div class="info-list__item --bg-grey">G g</div>
+              <div class="info-list__item --bg-grey">H h</div>
+              <div class="info-list__item --bg-grey">I i</div>
+              <div class="info-list__item --bg-grey">J j</div>
+              <div class="info-list__item --bg-grey">K k</div>
+              <div class="info-list__item --bg-grey">L l</div>
+              <div class="info-list__item --bg-grey">M m</div>
+              <div class="info-list__item --bg-grey">N n</div>
+              <div class="info-list__item --bg-grey">O o</div>
+              <div class="info-list__item --bg-grey">P p</div>
+              <div class="info-list__item --bg-grey">Q q</div>
+              <div class="info-list__item --bg-grey">R r</div>
+              <div class="info-list__item --bg-grey">S s</div>
+              <div class="info-list__item --bg-grey">T t</div>
+              <div class="info-list__item --bg-grey">U u</div>
+              <div class="info-list__item --bg-grey">V v</div>
+              <div class="info-list__item --bg-grey">W w</div>
+              <div class="info-list__item --bg-grey">X x</div>
+              <div class="info-list__item --bg-grey">Y y</div>
+              <div class="info-list__item --bg-grey">Z z</div>
+            </section>
+          </div>
+        </div>
+
+        <div class="cheats__item" id="sounds">
+          <h3 class="cheat__title font-xxl">Звуки</h3>
+          <div class="cheat__content">
+            <h4 class="cheat__content-title font-l">Транскрипция</h4>
+
+            <section class="info-list">
+              <div class="info-list__item">
+                <div class="info-list__name font-m">Гласные</div>
+                <div
+                  class="info-list__example info-list__example--row --bg-orange10 font-m">
+                  <span class="--flex100" style="color: var(--orange60)">
+                    Монофтонги
+                  </span>
+                  <div class="info-list__part">/ʌ/</div>
+                  <div class="info-list__part">/ɑː/</div>
+                  <div class="info-list__part">/e/</div>
+                  <div class="info-list__part">/ɜː/</div>
+                  <div class="info-list__part">/ɪ/</div>
+                  <div class="info-list__part">/iː/</div>
+                  <div class="info-list__part">/ɒ/</div>
+                  <div class="info-list__part">/ɔː/</div>
+                  <div class="info-list__part">/ʊ/</div>
+                  <div class="info-list__part">/uː/</div>
+                  <div class="info-list__part">/æ/</div>
+                  <div class="info-list__part">/ə/</div>
+                </div>
+
+                <div
+                  class="info-list__example info-list__example--row --bg-orange10 font-m">
+                  <span class="--flex100" style="color: var(--orange60)">
+                    Дифтонги
+                  </span>
+                  <div class="info-list__part">/aɪ/</div>
+                  <div class="info-list__part">/eɪ/</div>
+                  <div class="info-list__part">/ɔɪ/</div>
+                  <div class="info-list__part">/aʊ/</div>
+                  <div class="info-list__part">/əʊ/</div>
+                  <div class="info-list__part">/ɪə/</div>
+                  <div class="info-list__part">/eə/</div>
+                  <div class="info-list__part">/ʊə/</div>
+                </div>
+
+                <div
+                  class="info-list__example info-list__example--row --bg-orange10 font-m">
+                  <span class="--flex100" style="color: var(--orange60)">
+                    Трифтонги
+                  </span>
+                  <div class="info-list__part">/aɪə/</div>
+                  <div class="info-list__part">/aʊə/</div>
+                  <div class="info-list__part">/eɪə/</div>
+                  <div class="info-list__part">/ɔɪə/</div>
+                  <div class="info-list__part">/əʊə/</div>
+                </div>
+              </div>
+
+              <div class="info-list__item">
+                <div class="info-list__name --bg-blue60 font-m">Согласные</div>
+                <div
+                  class="info-list__example info-list__example--row --bg-blue10 font-m">
+                  <div class="info-list__part">/p/</div>
+                  <div class="info-list__part">/b/</div>
+                  <div class="info-list__part">/t/</div>
+                  <div class="info-list__part">/d/</div>
+                  <div class="info-list__part">/f/</div>
+                  <div class="info-list__part">/v/</div>
+                  <div class="info-list__part">/θ/</div>
+                  <div class="info-list__part">/ð/</div>
+                  <div class="info-list__part">/k/</div>
+                  <div class="info-list__part">/ɡ/</div>
+                  <div class="info-list__part">/s/</div>
+                  <div class="info-list__part">/z/</div>
+                </div>
+
+                <div
+                  class="info-list__example info-list__example--row --bg-blue10 font-m">
+                  <div class="info-list__part">/m/</div>
+                  <div class="info-list__part">/n/</div>
+                  <div class="info-list__part">/ŋ/</div>
+                  <div class="info-list__part">/h/</div>
+                  <div class="info-list__part">/l/</div>
+                  <div class="info-list__part">/r/</div>
+                  <div class="info-list__part">/j/</div>
+                  <div class="info-list__part">/w/</div>
+                </div>
+
+                <div
+                  class="info-list__example info-list__example--row --bg-blue10 font-m">
+                  <div class="info-list__part">/ʃ/</div>
+                  <div class="info-list__part">/ʒ/</div>
+                  <div class="info-list__part">/tʃ/</div>
+                  <div class="info-list__part">/dʒ/</div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="cheat__content">
+            <h4 class="cheat__content-title font-l">Чтение гласных букв</h4>
+
+            <section class="info-list">
+              <div class="info-list__item">
+                <div class="info-list__name font-m">
+                  Типы слога (на примере буквы A)
+                </div>
+                <div class="info-list__example --grid-three-columns font-m">
+                  <div>Открытый</div>
+                  <div class="column-divider"></div>
+                  <div class="info-list__part--column">
+                    <span style="color: var(--orange90)"> /eɪ/ </span>
+                    <span style="color: var(--b64)">
+                      hate<br />
+                      taken
+                    </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example --grid-three-columns font-m">
+                  <div>Закрытый</div>
+                  <div class="column-divider"></div>
+                  <div class="info-list__part--column">
+                    <span style="color: var(--orange90)"> /æ/ </span>
+                    <span style="color: var(--b64)">
+                      hat<br />
+                      matter
+                    </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example --grid-three-columns font-m">
+                  <div>R после гласной</div>
+                  <div class="column-divider"></div>
+                  <div class="info-list__part--column">
+                    <span style="color: var(--orange90)"> /ɑː/ </span>
+                    <span style="color: var(--b64)"> hard </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example --grid-three-columns font-m">
+                  <div>Гласная + R + E</div>
+                  <div class="column-divider"></div>
+                  <div class="info-list__part--column">
+                    <span style="color: var(--orange90)"> /eə/ </span>
+                    <span style="color: var(--b64)"> care </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="cheat__content">
+            <h4 class="cheat__content-title font-l">
+              Непроизносимые согласные
+            </h4>
+            <section class="info-list">
+              <div class="info-list__item">
+                <div class="info-list__example info-list--row font-m">
+                  <div
+                    class="--flex100 --gap8"
+                    style="display: flex; align-items: center">
+                    <span> B </span>
+                    <svg width="16" height="16"><use href="#icon-arrow" /></svg>
+                    <span style="color: var(--blue60)"> BT </span>
+                  </div>
+
+                  <div class="info-list__part--boxed --flex100">
+                    <span>
+                      dou<span style="color: var(--blue60)">bt</span>
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /daʊt/
+                    </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example info-list--row font-m">
+                  <div
+                    class="--flex100 --gap8"
+                    style="display: flex; align-items: center">
+                    <span> G </span>
+                    <svg width="16" height="16"><use href="#icon-arrow" /></svg>
+                    <span style="color: var(--blue60)"> GN </span>
+                  </div>
+
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      desi<span style="color: var(--blue60)">gn</span>
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /dɪˈzaɪn/
+                    </span>
+                  </div>
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      si<span style="color: var(--blue60)">gn</span>
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /saɪn/
+                    </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example info-list--row font-m">
+                  <div
+                    class="--flex100 --gap8"
+                    style="display: flex; align-items: center">
+                    <span> H </span>
+                    <svg width="16" height="16"><use href="#icon-arrow" /></svg>
+                    <span style="color: var(--blue60)"> WHE, WHI </span>
+                  </div>
+
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      <span style="color: var(--blue60)">whe</span>n
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /wen/
+                    </span>
+                  </div>
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      <span style="color: var(--blue60)">whi</span>le
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /waɪl/
+                    </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example info-list--row font-m">
+                  <div
+                    class="--flex100 --gap8"
+                    style="display: flex; align-items: center">
+                    <span> GH </span>
+                    <svg width="16" height="16"><use href="#icon-arrow" /></svg>
+                    <span style="color: var(--blue60)"> IGH </span>
+                  </div>
+
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      he<span style="color: var(--blue60)">igh</span>t
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /haɪt/
+                    </span>
+                  </div>
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      we<span style="color: var(--blue60)">igh</span>t
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /weɪt/
+                    </span>
+                  </div>
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      f<span style="color: var(--blue60)">igh</span>t
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /faɪt/
+                    </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example info-list--row font-m">
+                  <div
+                    class="--flex100 --gap8"
+                    style="display: flex; align-items: center">
+                    <span> K </span>
+                    <svg width="16" height="16"><use href="#icon-arrow" /></svg>
+                    <span style="color: var(--blue60)"> KN </span>
+                  </div>
+
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      <span style="color: var(--blue60)">kn</span>owledge
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /ˈnɒlɪdʒ/
+                    </span>
+                  </div>
+                  <div class="info-list__part--boxed --flex1">
+                    <span>
+                      <span style="color: var(--blue60)">kn</span>ife
+                    </span>
+                    <span class="font-xs" style="color: var(--b48)">
+                      /naɪf/
+                    </span>
+                  </div>
+                </div>
+
+                <div class="info-list__example info-list--row font-m">
+                  <div
+                    class="--flex100 --gap8"
+                    style="display: flex; align-items: center">
+                    <span> L </span>
+                    <svg width="16" height="16"><use href="#icon-arrow" /></svg>
+                    <span style="color: var(--blue60)"> OULD, ALK </span>
+                  </div>
+
+                  <div class="--flex100 --gap8" style="display: flex">
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        sh<span style="color: var(--blue60)">ould</span>
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        /ʃʊd/
+                      </span>
+                    </div>
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        c<span style="color: var(--blue60)">ould</span>
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        /kʊd/
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="--flex100 --gap8" style="display: flex">
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        w<span style="color: var(--blue60)">ould</span>
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        /wʊd/
+                      </span>
+                    </div>
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        w<span style="color: var(--blue60)">alk</span>
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        [wɔːk]
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="info-list__example info-list--row font-m">
+                  <div
+                    class="--flex100 --gap8"
+                    style="display: flex; align-items: center">
+                    <span> W </span>
+                    <svg width="16" height="16"><use href="#icon-arrow" /></svg>
+                    <span style="color: var(--blue60)"> WHO, WR </span>
+                  </div>
+
+                  <div class="--flex100 --gap8" style="display: flex">
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        <span style="color: var(--blue60)">who</span>se
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        /huːz/
+                      </span>
+                    </div>
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        <span style="color: var(--blue60)">who</span>le
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        /həʊl/
+                      </span>
+                    </div>
+                  </div>
+                  <div class="--flex100 --gap8" style="display: flex">
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        <span style="color: var(--blue60)">wr</span>ite
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        /raɪt/
+                      </span>
+                    </div>
+                    <div class="info-list__part--boxed --flex1">
+                      <span>
+                        <span style="color: var(--blue60)">wr</span>ong
+                      </span>
+                      <span class="font-xs" style="color: var(--b48)">
+                        /rɒŋ/
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="cheats__item" id="numbers">
+          <h3 class="cheat__title font-xxl">Числа от 1 до 1 000 000</h3>
+          <div class="cheat__content">
+            <table>
+              <thead>
+                <tr>
+                  <th rowspan="2">Число</th>
+                  <th style="border-bottom: 0">Количество</th>
+                  <th style="border-bottom: 0">Порядок</th>
+                </tr>
+                <tr>
+                  <th class="font-xs" style="color: var(--b48)">(сколько?)</th>
+                  <th class="font-xs" style="color: var(--b48)">
+                    (какой по&nbsp;счёту?)
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">1</td>
+                  <td class="font-xs">one</td>
+                  <td class="font-xs">first</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">2</td>
+                  <td class="font-xs">two</td>
+                  <td class="font-xs">second</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">3</td>
+                  <td class="font-xs">three</td>
+                  <td class="font-xs">third</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">4</td>
+                  <td class="font-xs">four</td>
+                  <td class="font-xs">fourth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">5</td>
+                  <td class="font-xs">five</td>
+                  <td class="font-xs">fifth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">6</td>
+                  <td class="font-xs">six</td>
+                  <td class="font-xs">sixth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">7</td>
+                  <td class="font-xs">seven</td>
+                  <td class="font-xs">seventh</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">8</td>
+                  <td class="font-xs">eight</td>
+                  <td class="font-xs">eighth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">9</td>
+                  <td class="font-xs">nine</td>
+                  <td class="font-xs">ninth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">10</td>
+                  <td class="font-xs">ten</td>
+                  <td class="font-xs">tenth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">11</td>
+                  <td class="font-xs">eleven</td>
+                  <td class="font-xs">eleventh</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">12</td>
+                  <td class="font-xs">twelve</td>
+                  <td class="font-xs">twelfth</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="cheat__content">
+            <section class="info-list">
+              <div class="info-list__item">
+                <div class="info-list__example font-m">
+                  <span>
+                    Чтобы считать от 13 до 19, к корню числа от 3 до 9 добавляем
+                    <span style="color: var(--orange90)">-teen</span>.
+                  </span>
+                  <div class="info-list__part info-list__part--boxed">
+                    <span> four </span>
+                    <span> + </span>
+                    <span> teen </span>
+                    <span> → </span>
+                    <span>
+                      four<span style="color: var(--orange90)">teen</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-list__item">
+                <div class="info-list__example --bg-orange10 font-m">
+                  <span>
+                    У <span style="color: var(--orange90)">13</span> и <span
+                      style="color: var(--orange90)"
+                      >15</span
+                    > корни слов изменяются так же, как в порядковых числах:
+                  </span>
+                  <div class="info-list__part info-list__part--boxed">
+                    <span> three </span>
+                    <span> + </span>
+                    <span>
+                      <span style="color: var(--orange90)">thir</span>d
+                    </span>
+                    <span> → </span>
+                    <span>
+                      <span style="color: var(--orange90)">thir</span>teen
+                    </span>
+                  </div>
+
+                  <div class="info-list__part info-list__part--boxed">
+                    <span> five </span>
+                    <span> + </span>
+                    <span>
+                      <span style="color: var(--orange90)">fif</span>th
+                    </span>
+                    <span> → </span>
+                    <span>
+                      <span style="color: var(--orange90)">fif</span>teen
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <table>
+              <thead>
+                <tr>
+                  <th rowspan="2">Число</th>
+                  <th style="border-bottom: 0">Количество</th>
+                  <th style="border-bottom: 0">Порядок</th>
+                </tr>
+                <tr>
+                  <th class="font-xs" style="color: var(--b48)">(сколько?)</th>
+                  <th class="font-xs" style="color: var(--b48)">
+                    (какой по&nbsp;счёту?)
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">13</td>
+                  <td class="font-xs">thirteen</td>
+                  <td class="font-xs">thirteenth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">14</td>
+                  <td class="font-xs">fourteen</td>
+                  <td class="font-xs">fourteenth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">15</td>
+                  <td class="font-xs">fifteen</td>
+                  <td class="font-xs">fifteenth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">16</td>
+                  <td class="font-xs">sixteen</td>
+                  <td class="font-xs">sixteenth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">17</td>
+                  <td class="font-xs">seventeen</td>
+                  <td class="font-xs">seventeenth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">18</td>
+                  <td class="font-xs">eighteen</td>
+                  <td class="font-xs">eighteenth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">19</td>
+                  <td class="font-xs">nineteen</td>
+                  <td class="font-xs">nineteenth</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <section class="info-list">
+              <div class="info-list__item">
+                <div
+                  class="info-list__example --bg-red10 font-m"
+                  style="color: var(--red60)">
+                  В eighteen буква T не удваивается.
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="cheat__content">
+            <section class="info-list">
+              <div class="info-list__item">
+                <div class="info-list__example font-m">
+                  <span>
+                    Чтобы считать десятки, к корню числа добавляем
+                    <span style="color: var(--orange90)">-ty</span>.
+                  </span>
+                  <div class="info-list__part info-list__part--boxed">
+                    <span> six </span>
+                    <span> + </span>
+                    <span> ty </span>
+                    <span> → </span>
+                    <span>
+                      six<span style="color: var(--orange90)">ty</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-list__item">
+                <div class="info-list__example --bg-orange10 font-m">
+                  <span>
+                    У чисел
+                    <span style="color: var(--orange90)">30, 40, 50</span> корни
+                    слов изменяются так же, как в порядковых числах:
+                  </span>
+                  <div class="info-list__part info-list__part--boxed">
+                    <span> three </span>
+                    <span> + </span>
+                    <span>
+                      <span style="color: var(--orange90)">thir</span>d
+                    </span>
+                    <span> → </span>
+                    <span>
+                      <span style="color: var(--orange90)">thir</span>ty
+                    </span>
+                  </div>
+
+                  <span>
+                    Число <span style="color: var(--orange90)">20</span> нужно
+                    запомнить:
+                  </span>
+
+                  <div class="info-list__part info-list__part--boxed">
+                    <span> two </span>
+                    <span> → </span>
+                    <span>
+                      tw<span style="color: var(--orange90)">en</span>ty
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <table>
+              <thead>
+                <tr>
+                  <th rowspan="2">Число</th>
+                  <th style="border-bottom: 0">Количество</th>
+                  <th style="border-bottom: 0">Порядок</th>
+                </tr>
+                <tr>
+                  <th class="font-xs" style="color: var(--b48)">(сколько?)</th>
+                  <th class="font-xs" style="color: var(--b48)">
+                    (какой по&nbsp;счёту?)
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">20</td>
+                  <td class="font-xs">twenty</td>
+                  <td class="font-xs">twentieth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">30</td>
+                  <td class="font-xs">thirty</td>
+                  <td class="font-xs">thirtieth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">40</td>
+                  <td class="font-xs">forty</td>
+                  <td class="font-xs">fortieth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">50</td>
+                  <td class="font-xs">fifty</td>
+                  <td class="font-xs">fiftieth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">60</td>
+                  <td class="font-xs">sixty</td>
+                  <td class="font-xs">sixtieth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">70</td>
+                  <td class="font-xs">seventy</td>
+                  <td class="font-xs">seventieth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">80</td>
+                  <td class="font-xs">eighty</td>
+                  <td class="font-xs">eightieth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">90</td>
+                  <td class="font-xs">ninety</td>
+                  <td class="font-xs">ninetieth</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <section class="info-list">
+              <div class="info-list__item">
+                <div class="info-list__example font-m">
+                  <span>
+                    Чтобы к десяткам прибавить единицы, к числительным
+                    из предыдущего раздела добавляем дефис и названия чисел от 1
+                    до 9:
+                  </span>
+                  <div class="info-list__part info-list__part--boxed">
+                    <span style="color: var(--orange90)"> 21 </span>
+                    <span> → </span>
+                    <span> twenty </span>
+                    <span> + </span>
+                    <span> one </span>
+                    <span> → </span>
+                    <span style="color: var(--orange90)"> twenty-one </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="cheat__content">
+            <h4 class="cheat__content-title font-l">Числа от 100</h4>
+            <table>
+              <thead>
+                <tr>
+                  <th rowspan="2">Число</th>
+                  <th style="border-bottom: 0">Количество</th>
+                  <th style="border-bottom: 0">Порядок</th>
+                </tr>
+                <tr>
+                  <th class="font-xs" style="color: var(--b48)">(сколько?)</th>
+                  <th class="font-xs" style="color: var(--b48)">
+                    (какой по&nbsp;счёту?)
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">100</td>
+                  <td class="font-xs">one hundred</td>
+                  <td class="font-xs">hundredth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">500</td>
+                  <td class="font-xs">five hundred</td>
+                  <td class="font-xs">five hundredth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">1000</td>
+                  <td class="font-xs">one thousand</td>
+                  <td class="font-xs">thousandth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">1500</td>
+                  <td class="font-xs">
+                    one thousand five hundred
+                    <span style="color: var(--orange90)">или</span> fifteen
+                    hundred
+                  </td>
+                  <td class="font-xs">one thousand five hundredth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">
+                    100&nbsp;000
+                  </td>
+                  <td class="font-xs">one hundred thousand</td>
+                  <td class="font-xs">hundred thousandth</td>
+                </tr>
+                <tr>
+                  <td class="font-s" style="color: var(--orange90)">
+                    1&nbsp;000&nbsp;000
+                  </td>
+                  <td class="font-xs">one million</td>
+                  <td class="font-xs">millionth</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="cheats__item" id="colors">
+          <h3 class="cheat__title font-xxl">Цвета</h3>
+          <div class="cheat__content">
+            <section class="color-palette">
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #ff4545">
+                <div class="font-m">red</div>
+                <div class="font-s">красный</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #ff6d00">
+                <div class="font-m">orange</div>
+                <div class="font-s">оранжевый</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: black; background-color: #ffc700">
+                <div class="font-m">yellow</div>
+                <div class="font-s">жёлтый</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #7ac100">
+                <div class="font-m">green</div>
+                <div class="font-s">зелёный</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #d571ff">
+                <div class="font-m">purple</div>
+                <div class="font-s">фиолетовый</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #00c1ff">
+                <div class="font-m">blue</div>
+                <div class="font-s">голубой</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #ff64b0">
+                <div class="font-m">pink</div>
+                <div class="font-s">розовый</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: black; background-color: #ffffff">
+                <div class="font-m">white</div>
+                <div class="font-s">белый</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: black; background-color: #f4f4f4">
+                <div class="font-m">grey</div>
+                <div class="font-s">серый</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #000000">
+                <div class="font-m">black</div>
+                <div class="font-s">чёрный</div>
+              </div>
+
+              <div
+                class="color-palette__element"
+                style="color: white; background-color: #926100">
+                <div class="font-m">brown</div>
+                <div class="font-s">коричневый</div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div aria-hidden="true" class="page-spacer"></div>
+    <aside class="pwa">
+      <div class="pwa__content">
+        <p class="pwa__title font-m">Установите приложение</p>
+        <p class="pwa__subtitle font-s">
+          И добавьте на главный экран, чтобы было под рукой
+        </p>
+      </div>
+      <!-- <div>
+        <img src="" />
+      </div> -->
+      <button class="pwa__close" type="button">
+        <img src="../icons/close_white.svg" />
+      </button>
+    </aside>
+    <script src="../js/app.js"></script>
+    <script src="../js/search.js"></script>
+  </body>
+</html>
