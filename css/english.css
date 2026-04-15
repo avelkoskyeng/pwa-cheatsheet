@@ -1,7 +1,23 @@
 .column-divider {
-  height: 100%;
+  align-self: stretch;
   width: 1px;
   background-color: var(--b10);
+}
+.row-divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--b10);
+}
+.info-list__part-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.info-list__item--col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
 }
 #sounds {
   .info-list__part {
@@ -75,5 +91,91 @@
     gap: 10px;
     padding: 12px;
     border-radius: 12px;
+  }
+}
+#noun {
+  .info-list__name--row {
+    border-bottom: 2px solid var(--w);
+  }
+
+  .info-list__part {
+    display: flex;
+    gap: 8px;
+  }
+}
+#indefinite-article,
+#noun-quantifiers {
+  .--grid-three-columns {
+    gap: 8px;
+    justify-items: start;
+    align-items: start;
+  }
+
+  .info-list__part--row {
+    text-align: start;
+  }
+}
+#pronouns {
+  .info-list__part--row {
+    align-items: center;
+  }
+}
+#present-simple {
+  .info-list__part--row {
+    text-align: start;
+  }
+}
+#to-be {
+  .info-list__name--row {
+    border-bottom: 2px solid var(--w);
+  }
+}
+#word-order {
+  .info-list__part--row {
+    text-align: start;
+  }
+}
+#there-is-are {
+  .--grid-three-columns {
+    justify-items: start;
+    gap: 8px;
+  }
+  .info-list__name--row {
+    align-items: center;
+  }
+}
+#prepositions-of-place {
+  .--grid-two-columns {
+    justify-items: normal;
+  }
+}
+#noun-quantifiers {
+  .pseudo-table {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .column-divider {
+      width: 2px;
+    }
+    .row-divider {
+      height: 2px;
+    }
+  }
+  .pseudo-table__row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .pseudo-table__data {
+      display: flex;
+      gap: 8px;
+    }
+  }
+
+  .pseudo-table__cell {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 }

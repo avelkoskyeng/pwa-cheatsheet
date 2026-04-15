@@ -200,9 +200,13 @@ body.search-active .search-shell {
 .--row {
   flex-direction: row;
 }
+.--col {
+  flex-direction: column;
+}
 .--wrap {
   flex-wrap: wrap;
 }
+
 .--gap8 {
   gap: 8px;
 }
@@ -213,9 +217,21 @@ body.search-active .search-shell {
   align-items: center;
   justify-items: center;
 }
+.--grid-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
 .info-list__part--column {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+.info-list__part--row {
+  display: flex;
+  flex-direction: row;
   gap: 8px;
   text-align: center;
 }
@@ -247,7 +263,7 @@ body.search-active .search-shell {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
+    min-width: 56px;
     border-radius: 8px;
     padding: 12px;
   }
@@ -257,4 +273,11 @@ body.search-active .search-shell {
   border-radius: 8px;
   padding: 12px;
   background-color: var(--w48);
+}
+
+.info-list__item--equation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }

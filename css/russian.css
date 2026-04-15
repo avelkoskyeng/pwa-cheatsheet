@@ -20,13 +20,6 @@
   background-color: var(--w);
 }
 
-.info-list__item--equation {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
 .underline__double {
   text-decoration: underline double;
   text-underline-offset: 5px;
