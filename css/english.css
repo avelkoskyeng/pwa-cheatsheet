@@ -179,3 +179,32 @@
     gap: 4px;
   }
 }
+#pronouns {
+  .info-list__part--boxed {
+    background-color: var(--grey);
+  }
+  .--grid-two-columns {
+    justify-items: normal;
+  }
+  .info-list__item--col {
+    overflow: hidden;
+    padding-bottom: 0;
+    svg {
+      overflow: visible;
+    }
+  }
+}
+#adjectives-comparison {
+  .info-list--row {
+    .info-list__item {
+      align-items: unset;
+    }
+  }
+  .info-list__part--column {
+    text-align: start;
+    gap: 4px;
+  }
+  .info-list__part--row {
+    text-align: start;
+  }
+}
