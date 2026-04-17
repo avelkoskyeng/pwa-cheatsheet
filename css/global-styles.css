@@ -105,9 +105,11 @@ button {
   border: 0;
   background-color: transparent;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   background-color: var(--grey);
-  overflow-x: hidden;
 }
 .no-wrap {
   white-space: nowrap;
@@ -162,7 +164,6 @@ body {
 nav,
 header,
 aside {
-  /* width: 376px; */
   width: clamp(376px, 100%, 624px);
   margin: auto;
 }
@@ -187,7 +188,6 @@ main {
   gap: 10px;
 }
 .logo__img {
-  /* width: 128px; */
   height: 32px;
 }
 .logo__divider {
@@ -204,7 +204,7 @@ main {
 .intro {
   display: flex;
   gap: 10px;
-  align-items: flex-end;
+  justify-content: space-between;
 }
 .intro__content {
   display: flex;
@@ -218,14 +218,11 @@ main {
   color: var(--w8);
 }
 .intro__img {
-  width: 115px;
-  height: 117px;
-  overflow: visible;
-  img {
-    position: relative;
-    top: -9px;
-    left: -24px;
-  }
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 140px;
+  height: 125px;
 }
 
 .content--main {
@@ -255,22 +252,22 @@ main {
   color: var(--b64);
 }
 .subject__img {
-  width: 52px;
+  width: 90px;
   height: 0;
   overflow: visible;
   img {
     position: relative;
   }
   .pencil {
-    left: -55.82px;
+    left: -15.82px;
     top: -52.06px;
   }
-  .cube-thinker {
-    left: -51.54px;
+  .earphone {
+    left: -11.54px;
     top: -31.3px;
   }
   .workbook {
-    left: -32px;
+    left: 12px;
     top: -29px;
   }
 }
@@ -286,6 +283,10 @@ main {
   border-radius: 8px;
 }
 .pwa {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: var(--orange90);
   display: flex;
   justify-content: space-between;
@@ -307,4 +308,53 @@ main {
 .pwa__close {
   width: 24px;
   height: 24px;
+}
+.pwa__icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 62px;
+  height: 70px;
+}
+
+.pwa-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pwa-popup[hidden] {
+  display: none;
+}
+.pwa-popup__overlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.16);
+}
+.pwa-popup__content {
+  position: relative;
+  z-index: 1;
+  background-color: var(--w);
+  border-radius: 16px;
+  padding: 16px;
+  width: clamp(344px, calc(100% - 32px), 624px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.pwa-popup__close {
+  align-self: flex-end;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+.pwa-popup__title {
+  color: var(--b);
+  padding-right: 30px;
+}
+.pwa-popup__subtitle {
+  color: var(--b64);
 }

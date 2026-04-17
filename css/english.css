@@ -208,3 +208,27 @@
     text-align: start;
   }
 }
+
+#adverbs {
+  .info-list__part--column {
+    text-align: start;
+    gap: 4px;
+  }
+}
+
+.crossed {
+  position: relative;
+  overflow: hidden;
+}
+.crossed::after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  top: 50%;
+  width: 120%;
+  height: 2px;
+  background: var(--red60);
+  transform: rotate(32deg);
+  transform-origin: center;
+  pointer-events: none;
+}
