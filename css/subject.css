@@ -93,6 +93,7 @@ body.search-active .search-shell {
   display: flex;
   gap: 10px;
   background-color: var(--orange10);
+  align-items: flex-start;
 }
 
 .note__text {

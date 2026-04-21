@@ -173,5 +173,11 @@ main {
 }
 
 .--gap8 {
-  gap: 8px;
+  gap: 8px !important;
+}
+.--gap4 {
+  gap: 4px !important;
+}
+.--gap6 {
+  gap: 6px !important;
 }

@@ -296,3 +296,9 @@
     text-align: center;
   }
 }
+
+#essay-checklist {
+  .info-list__part--row {
+    text-align: start;
+  }
+}
