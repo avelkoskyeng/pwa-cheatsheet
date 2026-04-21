@@ -207,10 +207,6 @@ body.search-active .search-shell {
   flex-wrap: wrap;
 }
 
-.--gap8 {
-  gap: 8px;
-}
-
 .--grid-three-columns {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
