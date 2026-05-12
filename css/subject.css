@@ -202,7 +202,7 @@ body.search-active .search-shell {
   flex-direction: row;
 }
 .--col {
-  flex-direction: column;
+  flex-direction: column !important;
 }
 .--wrap {
   flex-wrap: wrap;
@@ -277,4 +277,14 @@ body.search-active .search-shell {
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.--center {
+  align-items: center;
+  justify-content: center;
+}
+
+sup,
+sub {
+  font-size: 0.66em;
 }

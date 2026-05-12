@@ -2796,15 +2796,44 @@
     ]
   },
   {
-    "id": "math-9-powers-roots",
+    "id": "math-9-powers",
     "subjectCode": "math",
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
     "page": "/pages/math-9.html",
-    "hash": "#powers-roots",
-    "title": "Свойства степеней. Свойства корней",
-    "keywords": ["степени", "корни", "свойства", "упрощение", "a^n", "√a"]
+    "hash": "#powers",
+    "title": "Свойства степеней",
+    "keywords": ["степени", "свойства", "упрощение", "a^n"]
+  },
+  {
+    "id": "math-9-roots",
+    "subjectCode": "math",
+    "subject": "Математика",
+    "gradeBand": "9",
+    "grade": "9 класс",
+    "page": "/pages/math-9.html",
+    "hash": "#roots",
+    "title": "Свойства корней",
+    "keywords": ["корни", "свойства", "упрощение", "логика преобразований"]
+  },
+  {
+    "id": "math-9-triangle-properties",
+    "subjectCode": "math",
+    "subject": "Математика",
+    "gradeBand": "9",
+    "grade": "9 класс",
+    "page": "/pages/math-9.html",
+    "hash": "#triangles",
+    "title": "Свойства треугольников",
+    "keywords": [
+      "треугольник",
+      "свойства треугольников",
+      "сумма углов",
+      "равнобедренный",
+      "равносторонний",
+      "признаки равенства"
+    ]
   },
   {
     "id": "math-9-calculation-simplify-identities",
@@ -2831,7 +2860,7 @@
     "gradeBand": "9",
     "grade": "9 класс",
     "page": "/pages/math-9.html",
-    "hash": "#equations",
+    "hash": "#quadratic-equation",
     "title": "Уравнения. Решение квадратного уравнения",
     "keywords": [
       "уравнения",
@@ -2937,21 +2966,26 @@
     ]
   },
   {
-    "id": "math-10-11-powers-roots",
+    "id": "math-10-11-powers",
     "subjectCode": "math",
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
     "page": "/pages/math-10-11.html",
-    "hash": "#powers-roots",
-    "title": "Свойства степеней. Свойства корней",
-    "keywords": [
-      "степени",
-      "корни",
-      "свойства",
-      "упрощение",
-      "логика преобразований"
-    ]
+    "hash": "#powers",
+    "title": "Свойства степеней",
+    "keywords": ["степени", "свойства", "упрощение", "логика преобразований"]
+  },
+  {
+    "id": "math-10-11-roots",
+    "subjectCode": "math",
+    "subject": "Математика",
+    "gradeBand": "10-11",
+    "grade": "10-11 класс",
+    "page": "/pages/math-10-11.html",
+    "hash": "#roots",
+    "title": "Свойства корней",
+    "keywords": ["корни", "свойства", "упрощение", "логика преобразований"]
   },
   {
     "id": "math-10-11-functions-properties",

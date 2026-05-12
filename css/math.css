@@ -7,11 +7,18 @@
   flex-direction: column;
   align-items: center;
 }
+.formula--nesting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .formula__label {
   white-space: nowrap;
 }
 .formula__numerator {
   border-bottom: 1px solid var(--b);
+  width: 100%;
+  text-align: center;
 }
 
 #digits-numbers {
@@ -427,7 +434,8 @@
     }
   }
   .info-list__example--single {
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -458,5 +466,27 @@
     gap: 8px;
     align-items: baseline;
     justify-content: space-between;
+  }
+}
+
+#functions-properties,
+#function-types,
+#stereometry {
+  .info-list__part--column {
+    align-items: flex-start;
+    text-align: start;
+  }
+}
+
+#oge-review {
+  .info-list__part--row {
+    text-align: start;
+  }
+}
+
+#derivatives {
+  .info-list__example {
+    align-items: center;
+    justify-content: center;
   }
 }
