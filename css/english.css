@@ -138,10 +138,14 @@
 #there-is-are {
   .--grid-three-columns {
     justify-items: start;
+    align-items: start;
     gap: 8px;
   }
   .info-list__name--row {
     align-items: center;
+  }
+  .info-list__item {
+    align-items: flex-start;
   }
 }
 #prepositions-of-place {
@@ -181,7 +185,7 @@
 }
 #pronouns {
   .info-list__part--boxed {
-    background-color: var(--grey);
+    /* background-color: var(--grey); */
   }
   .--grid-two-columns {
     justify-items: normal;

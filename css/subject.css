@@ -278,6 +278,11 @@ body.search-active .search-shell {
   flex-wrap: wrap;
   gap: 8px;
 }
+.equation--boxed {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--orange60);
+}
 
 .--center {
   align-items: center;
@@ -287,4 +292,16 @@ body.search-active .search-shell {
 sup,
 sub {
   font-size: 0.66em;
+}
+
+.pronounceable {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+
+  cursor: pointer;
 }
