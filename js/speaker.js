@@ -8,7 +8,7 @@
   
     lang: 'en-GB',
 
-    rate: 1,
+    rate: 0.75,
     pitch: 1,
     volume: 1,
 

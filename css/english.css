@@ -184,9 +184,6 @@
   }
 }
 #pronouns {
-  .info-list__part--boxed {
-    /* background-color: var(--grey); */
-  }
   .--grid-two-columns {
     justify-items: normal;
   }
@@ -201,7 +198,8 @@
 #adjectives-comparison {
   .info-list--row {
     .info-list__item {
-      align-items: unset;
+      align-items: flex-start;
+      justify-content: start;
     }
   }
   .info-list__part--column {
@@ -229,17 +227,22 @@
   position: relative;
   overflow: hidden;
 }
+
 .crossed::after {
   content: "";
   position: absolute;
-  left: -10%;
-  top: 50%;
-  width: 120%;
-  height: 2px;
-  background: var(--red60);
-  transform: rotate(32deg);
-  transform-origin: center;
+  inset: 0;
   pointer-events: none;
+
+  background: linear-gradient(
+    to top right,
+    transparent calc(50% - 2px),
+    var(--red60) calc(50% - 1px),
+    var(--red60) calc(50% - 0.5px),
+    var(--red60) calc(50% + 0.5px),
+    var(--red60) calc(50% + 1px),
+    transparent calc(50% + 2px)
+  );
 }
 
 #present-continuous {
