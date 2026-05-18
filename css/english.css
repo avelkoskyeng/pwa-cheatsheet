@@ -250,3 +250,19 @@
     text-align: start;
   }
 }
+
+#past-perfect,
+#past-perfect-continuous {
+  .info-list__part--row {
+    text-align: start;
+  }
+}
+
+#reported-speech {
+  .info-list__part--row {
+    align-items: center;
+  }
+  .info-list__part-col:not(:last-child) {
+    border-bottom: 2px solid var(--w);
+  }
+}
