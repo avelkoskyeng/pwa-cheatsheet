@@ -266,3 +266,32 @@
     border-bottom: 2px solid var(--w);
   }
 }
+
+#subjunctive {
+  .note__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+#used-to {
+  .info-list__part {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+#adverbs-comparison {
+  .--grid-three-columns {
+    justify-items: start;
+    align-items: start;
+  }
+  .--bd-r12 {
+    border-radius: 12px;
+  }
+  .--grid-five-columns {
+    text-align: center;
+  }
+}

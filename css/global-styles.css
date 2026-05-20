@@ -16,6 +16,9 @@
   --orange60: #ff9e00;
   --orange-custom: #ffb53d;
 
+  --yellow10: #fff7c7;
+  --yellow60: #ffc700;
+
   --blue10: #e4fbff;
   --blue60: #00c1ff;
 
@@ -29,13 +32,34 @@
   --pink10: #ffebf5;
   --pink60: #ff64b0;
 
+  --violet10: #f9ebff;
+  --violet60: #d571ff;
+
   --salad60: #7ac100;
+  --salad10: #f2ffbd;
+  --salad40: #bcec30;
+
+  --mint10: #dbffe9;
+  --mint60: #40e687;
 
   --w8: #ffffffcc;
   --w64: #ffffffa3;
   --w48: #ffffff7a;
   --grey: #f4f4f4;
   --w: #ffffff;
+}
+
+.--bg-mint10 {
+  background-color: var(--mint10) !important;
+}
+.--bg-yellow10 {
+  background-color: var(--yellow10) !important;
+}
+.--bg-violet10 {
+  background-color: var(--violet10) !important;
+}
+.--bg-salad10 {
+  background-color: var(--salad10) !important;
 }
 
 .--bg-orange60 {
