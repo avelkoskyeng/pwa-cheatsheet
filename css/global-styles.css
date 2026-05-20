@@ -95,6 +95,9 @@
 .--bg-orange10 {
   background-color: var(--orange10) !important;
 }
+.--bg-orange20 {
+  background-color: var(--orange20) !important;
+}
 .--bg-salad60 {
   background-color: var(--salad60) !important;
 }
