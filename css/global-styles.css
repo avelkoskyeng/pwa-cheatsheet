@@ -146,6 +146,12 @@ body {
   margin-bottom: 16px;
 }
 
+.font-xxxl {
+  font-size: 32px;
+  line-height: 105%;
+  letter-spacing: -0.416px;
+}
+
 .font-xxl {
   font-size: 26px;
   line-height: 106%;
