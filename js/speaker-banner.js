@@ -1,8 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const BASE_PATH = location.pathname.includes("/pwa-cheatsheet/")
+    ? "/pwa-cheatsheet"
+    : "";
+
+  const withBase = (path) => `${BASE_PATH}${path}`;
+
   const storageKey = "speakerPopupHidden";
 
-  const popupPreviewSrc = "../imgs/speaker-popup__preview.svg";
-  const bannerIconSrc = "../icons/speaker__icon.svg";
+  const popupPreviewSrc = withBase("/imgs/speaker-popup__preview.svg");
+  const bannerIconSrc = withBase("/icons/speaker__icon.svg");
 
   const isPopupHiddenForever = localStorage.getItem(storageKey) === "true";
 
@@ -94,37 +100,37 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
- const addSpeakerBanners = () => {
-  const cheatsItems = document.querySelectorAll(".cheats__item");
+  const addSpeakerBanners = () => {
+    const cheatsItems = document.querySelectorAll(".cheats__item");
 
-  cheatsItems.forEach((item) => {
-    if (item.querySelector(".speaker-banner")) return;
+    cheatsItems.forEach((item) => {
+      if (item.querySelector(".speaker-banner")) return;
 
-    const bannerHTML = `
-      <div class="speaker-banner">
-        <div class="speaker-banner__text font-s">
-          Нажми на подчёркнутый текст, чтобы услышать, как он произносится
+      const bannerHTML = `
+        <div class="speaker-banner">
+          <div class="speaker-banner__text font-s">
+            Нажми на подчёркнутый текст, чтобы услышать, как он произносится
+          </div>
+          <img src="${bannerIconSrc}" alt="" aria-hidden="true" />
         </div>
-        <img src="${bannerIconSrc}" alt="" aria-hidden="true" />
-      </div>
-    `;
+      `;
 
-    const title = item.querySelector(":scope > .cheat__title");
+      const title = item.querySelector(":scope > .cheat__title");
 
-    if (title) {
-      title.insertAdjacentHTML("afterend", bannerHTML);
-      return;
-    }
+      if (title) {
+        title.insertAdjacentHTML("afterend", bannerHTML);
+        return;
+      }
 
-    const firstElement = item.firstElementChild;
+      const firstElement = item.firstElementChild;
 
-    if (firstElement) {
-      firstElement.insertAdjacentHTML("afterend", bannerHTML);
-    } else {
-      item.insertAdjacentHTML("afterbegin", bannerHTML);
-    }
-  });
-};
+      if (firstElement) {
+        firstElement.insertAdjacentHTML("afterend", bannerHTML);
+      } else {
+        item.insertAdjacentHTML("afterbegin", bannerHTML);
+      }
+    });
+  };
 
   addSpeakerBanners();
 

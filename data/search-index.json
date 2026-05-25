@@ -5,7 +5,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#alphabet",
     "title": "Алфавит",
     "keywords": ["алфавит", "буквы", "alphabet", "letters", "abc"]
@@ -16,7 +16,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#sounds",
     "title": "Звуки: транскрипция, чтение гласных букв, непроизносимые согласные",
     "keywords": [
@@ -38,7 +38,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#numbers",
     "title": "Числа",
     "keywords": ["числа", "счёт", "numbers", "counting", "one", "two", "ten"]
@@ -49,7 +49,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#colors",
     "title": "Цвета",
     "keywords": ["цвета", "colors", "red", "blue", "green", "yellow"]
@@ -60,7 +60,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#noun",
     "title": "Существительное: множественное число, исключения, притяжательный падеж",
     "keywords": [
@@ -83,7 +83,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#indefinite-article",
     "title": "Неопределённый артикль",
     "keywords": [
@@ -101,7 +101,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#pronouns",
     "title": "Местоимения: личные, притяжательные",
     "keywords": [
@@ -127,7 +127,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#present-simple",
     "title": "Present Simple (настоящее простое время)",
     "keywords": [
@@ -148,7 +148,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#to-be",
     "title": "Спрягаемые глаголы: to be и to have",
     "keywords": [
@@ -169,7 +169,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#word-order",
     "title": "Порядок слов в утвердительном предложении",
     "keywords": [
@@ -187,7 +187,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#there-is-are",
     "title": "There is/are в утвердительных и вопросительных; some/any",
     "keywords": [
@@ -208,7 +208,7 @@
     "subject": "Английский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/english-2-4.html",
+    "page": "pages/english-2-4.html",
     "hash": "#prepositions-of-place",
     "title": "Предлоги места",
     "keywords": [
@@ -229,7 +229,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#noun-quantifiers",
     "title": "Существительное: исчисляемые и неисчисляемые, some/any, (a) few/(a) little, many/much/a lot",
     "keywords": [
@@ -256,7 +256,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#definite-article-geography",
     "title": "Определённый артикль: географические названия",
     "keywords": [
@@ -280,7 +280,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#pronouns",
     "title": "Местоимения: объектные, возвратные, указательные, относительные",
     "keywords": [
@@ -317,7 +317,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#adjectives-comparison",
     "title": "Степени сравнения прилагательных",
     "keywords": [
@@ -338,7 +338,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#adverbs",
     "title": "Наречие: образование наречий",
     "keywords": [
@@ -361,7 +361,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#word-order",
     "title": "Порядок слов: в утвердительном и вопросительном предложении",
     "keywords": [
@@ -384,7 +384,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#present-continuous",
     "title": "Present Continuous: Present Simple vs Present Continuous",
     "keywords": [
@@ -406,7 +406,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#past-simple",
     "title": "Past Simple: распространённые неправильные глаголы",
     "keywords": [
@@ -429,7 +429,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#imperative",
     "title": "Повелительное наклонение",
     "keywords": [
@@ -448,7 +448,7 @@
     "subject": "Английский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/english-5-6.html",
+    "page": "pages/english-5-6.html",
     "hash": "#prepositions-of-time",
     "title": "Предлоги времени",
     "keywords": [
@@ -470,7 +470,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#stative-verbs",
     "title": "Stative verbs (глаголы состояния)",
     "keywords": [
@@ -491,7 +491,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#present-perfect",
     "title": "Present Perfect и Present Perfect Continuous: слова-индикаторы, неправильные глаголы, Present Perfect vs Past Simple",
     "keywords": [
@@ -520,7 +520,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#past-continuous",
     "title": "Past Continuous (прошедшее продолженное)",
     "keywords": [
@@ -539,7 +539,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#future-forms",
     "title": "Будущее время: will, may/might, be going to",
     "keywords": [
@@ -561,7 +561,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#gerund-infinitive",
     "title": "Герундий и инфинитив",
     "keywords": [
@@ -583,7 +583,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#modal-verbs",
     "title": "Модальные глаголы и конструкции",
     "keywords": [
@@ -608,7 +608,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#conditionals",
     "title": "Условные предложения: смешанный тип, unless",
     "keywords": [
@@ -629,7 +629,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#passive-voice",
     "title": "Пассивный залог",
     "keywords": [
@@ -648,7 +648,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#tag-questions",
     "title": "Разделительные вопросы",
     "keywords": [
@@ -666,7 +666,7 @@
     "subject": "Английский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/english-7-8.html",
+    "page": "pages/english-7-8.html",
     "hash": "#both-either-neither",
     "title": "Конструкции с both, either, neither",
     "keywords": [
@@ -687,7 +687,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#past-perfect",
     "title": "Past Perfect (прошедшее совершённое)",
     "keywords": [
@@ -705,7 +705,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#past-perfect-continuous",
     "title": "Past Perfect Continuous (прошедшее совершённое длительное)",
     "keywords": [
@@ -724,7 +724,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#reported-speech",
     "title": "Косвенная речь: глаголы, указатели времени/места, вопросы в косвенной речи",
     "keywords": [
@@ -749,7 +749,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#subjunctive",
     "title": "Сослагательное наклонение",
     "keywords": [
@@ -768,7 +768,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#used-to",
     "title": "Обороты used to, get used to, be used to",
     "keywords": [
@@ -788,7 +788,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#future-advanced",
     "title": "Будущее время: Future Simple, Future Continuous, Future Perfect и Future Perfect Continuous",
     "keywords": [
@@ -811,7 +811,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#make-vs-do",
     "title": "To make или to do",
     "keywords": [
@@ -832,7 +832,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#complex-structures",
     "title": "Сложное подлежащее, сложное дополнение",
     "keywords": [
@@ -852,7 +852,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#adjective-order",
     "title": "Порядок прилагательных",
     "keywords": [
@@ -874,7 +874,7 @@
     "subject": "Английский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/english-9.html",
+    "page": "pages/english-9.html",
     "hash": "#adverbs-comparison",
     "title": "Наречие: наречие или прилагательное, степени сравнения наречий",
     "keywords": [
@@ -896,7 +896,7 @@
     "subject": "Английский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/english-10-11.html",
+    "page": "pages/english-10-11.html",
     "hash": "#all-tenses",
     "title": "Все времена",
     "keywords": [
@@ -918,7 +918,7 @@
     "subject": "Английский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/english-10-11.html",
+    "page": "pages/english-10-11.html",
     "hash": "#phrasal-verbs",
     "title": "Фразовые глаголы",
     "keywords": [
@@ -939,7 +939,7 @@
     "subject": "Английский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/english-10-11.html",
+    "page": "pages/english-10-11.html",
     "hash": "#word-formation",
     "title": "Словообразование: приставки, отрицательные приставки, суффиксы",
     "keywords": [
@@ -965,7 +965,7 @@
     "subject": "Английский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/english-10-11.html",
+    "page": "pages/english-10-11.html",
     "hash": "#conjunctions",
     "title": "Союзы: сочинительные, подчинительные, парные",
     "keywords": [
@@ -991,7 +991,7 @@
     "subject": "Английский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/english-10-11.html",
+    "page": "pages/english-10-11.html",
     "hash": "#punctuation",
     "title": "Пунктуация",
     "keywords": [
@@ -1013,7 +1013,7 @@
     "subject": "Английский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/english-10-11.html",
+    "page": "pages/english-10-11.html",
     "hash": "#linking-words",
     "title": "Слова-связки",
     "keywords": [
@@ -1034,7 +1034,7 @@
     "subject": "Английский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/english-10-11.html",
+    "page": "pages/english-10-11.html",
     "hash": "#letter-structure",
     "title": "Структура письма",
     "keywords": [
@@ -1055,7 +1055,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#bukvy",
     "title": "Буквы",
     "keywords": ["буквы", "алфавит", "гласные", "согласные", "буква", "азбука"]
@@ -1066,7 +1066,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#zvuki",
     "title": "Звуки",
     "keywords": [
@@ -1086,7 +1086,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#pravopisanie-glasnyh",
     "title": "Правописание гласных",
     "keywords": [
@@ -1104,7 +1104,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#pravopisanie-soglasnyh",
     "title": "Правописание согласных",
     "keywords": [
@@ -1123,7 +1123,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#bukvosochetaniya",
     "title": "Правописание буквосочетаний",
     "keywords": [
@@ -1142,7 +1142,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#suschestvitelnoe",
     "title": "Имя существительное: нарицательное и собственное, род, число, падеж",
     "keywords": [
@@ -1162,7 +1162,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#prilagatelnoe",
     "title": "Имя прилагательное",
     "keywords": [
@@ -1181,7 +1181,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#glagol",
     "title": "Глагол: лицо и число, время, спряжение, глаголы-исключения, род",
     "keywords": [
@@ -1200,7 +1200,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#slovosochetanie",
     "title": "Словосочетание",
     "keywords": [
@@ -1217,7 +1217,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#predlozhenie",
     "title": "Предложение",
     "keywords": [
@@ -1235,7 +1235,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#chleny-predlozheniya",
     "title": "Главные и второстепенные члены предложения",
     "keywords": [
@@ -1255,7 +1255,7 @@
     "subject": "Русский язык",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/russian-2-4.html",
+    "page": "pages/russian-2-4.html",
     "hash": "#tipy-rechi",
     "title": "Типы речи",
     "keywords": [
@@ -1273,7 +1273,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#alternating-vowels",
     "title": "Правописание безударных чередующихся гласных",
     "keywords": [
@@ -1291,7 +1291,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#pravopisanie-soglasnyh",
     "title": "Правописание согласных",
     "keywords": [
@@ -1309,7 +1309,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#prefixes",
     "title": "Приставки пре-/при-, приставки на З/С, И/Ы после приставок",
     "keywords": [
@@ -1331,7 +1331,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#ne",
     "title": "«Не» в разных частях речи",
     "keywords": [
@@ -1352,7 +1352,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#soft-hard-signs",
     "title": "Разделительные Ь и Ъ",
     "keywords": [
@@ -1371,7 +1371,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#vowels-after-sibilants",
     "title": "О, Е, Ё после шипящих",
     "keywords": [
@@ -1393,7 +1393,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#declension-noun",
     "title": "Склонение имени существительного",
     "keywords": [
@@ -1412,7 +1412,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#adjective",
     "title": "Имя прилагательное: краткая форма, степень сравнения, разряд, правописание Н и НН",
     "keywords": [
@@ -1434,7 +1434,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#morph-glagol",
     "title": "Морфологические признаки глагола",
     "keywords": [
@@ -1455,7 +1455,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#syntax-units",
     "title": "Основные единицы синтаксиса",
     "keywords": [
@@ -1472,7 +1472,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#members-and-parts-of-speech",
     "title": "Члены предложения и части речи",
     "keywords": [
@@ -1493,7 +1493,7 @@
     "subject": "Русский язык",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/russian-5-6.html",
+    "page": "pages/russian-5-6.html",
     "hash": "#comma-homogeneous",
     "title": "Запятая при однородных членах предложения",
     "keywords": [
@@ -1513,7 +1513,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#adverbs-categories",
     "title": "Наречие. Разряды наречий",
     "keywords": [
@@ -1531,7 +1531,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#adverbs-spelling",
     "title": "Правописание наречий: слитно, раздельно, с дефисом",
     "keywords": [
@@ -1551,7 +1551,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#participle",
     "title": "Причастие и причастный оборот",
     "keywords": [
@@ -1570,7 +1570,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#n-nn-participle-adjective",
     "title": "Н и НН в отглагольных прилагательных и причастиях",
     "keywords": [
@@ -1590,7 +1590,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#gerund",
     "title": "Деепричастие и деепричастный оборот",
     "keywords": [
@@ -1608,7 +1608,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#preposition",
     "title": "Предлог. Правописание предлогов",
     "keywords": [
@@ -1628,7 +1628,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#conjunction",
     "title": "Союз. Виды союзов",
     "keywords": [
@@ -1649,7 +1649,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#particle",
     "title": "Частица. Виды частиц",
     "keywords": [
@@ -1671,7 +1671,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#predicates",
     "title": "Типы сказуемых",
     "keywords": [
@@ -1689,7 +1689,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#one-member-sentences",
     "title": "Односоставные предложения",
     "keywords": [
@@ -1707,7 +1707,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#vocative",
     "title": "Знаки препинания при обращении",
     "keywords": [
@@ -1724,7 +1724,7 @@
     "subject": "Русский язык",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/russian-7-8.html",
+    "page": "pages/russian-7-8.html",
     "hash": "#parenthetical-words",
     "title": "Вводные слова и конструкции: группы по значению, ложные вводные слова, знаки препинания",
     "keywords": [
@@ -1745,7 +1745,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#ne",
     "title": "«Не» в разных частях речи",
     "keywords": [
@@ -1764,7 +1764,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#phrase-connection-types",
     "title": "Типы связи слов в словосочетании",
     "keywords": [
@@ -1781,7 +1781,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#definitions",
     "title": "Однородные и неоднородные определения",
     "keywords": [
@@ -1798,7 +1798,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#detached-members",
     "title": "Обособленные члены предложения: определение, приложение, обстоятельство, дополнение",
     "keywords": [
@@ -1818,7 +1818,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#bsp",
     "title": "Знаки препинания в БСП",
     "keywords": [
@@ -1837,7 +1837,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#ssp",
     "title": "Знаки препинания в ССП",
     "keywords": [
@@ -1858,7 +1858,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#expressive-means",
     "title": "Изобразительно-выразительные средства языка",
     "keywords": [
@@ -1879,7 +1879,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#summary-outline",
     "title": "Изложение: структура текста, как пересказать текст, что записывать во время прослушивания",
     "keywords": [
@@ -1898,7 +1898,7 @@
     "subject": "Русский язык",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/russian-9.html",
+    "page": "pages/russian-9.html",
     "hash": "#essay-structure",
     "title": "Структура сочинения",
     "keywords": [
@@ -1918,7 +1918,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#paronyms",
     "title": "Паронимы. Словарь паронимов",
     "keywords": [
@@ -1938,7 +1938,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#unagreed-apposition",
     "title": "Несогласованное приложение",
     "keywords": [
@@ -1956,7 +1956,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#alternating-vowels",
     "title": "Правописание безударных чередующихся гласных",
     "keywords": [
@@ -1973,7 +1973,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#participle-suffixes",
     "title": "Правописание суффиксов причастий",
     "keywords": [
@@ -1999,7 +1999,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#ne",
     "title": "«Не» в разных частях речи",
     "keywords": [
@@ -2019,7 +2019,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#prep-conj-adv-spelling",
     "title": "Правописание предлогов, союзов, наречий",
     "keywords": [
@@ -2042,7 +2042,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#bsp",
     "title": "Знаки препинания в БСП",
     "keywords": [
@@ -2061,7 +2061,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#ssp",
     "title": "Знаки препинания в ССП",
     "keywords": [
@@ -2082,7 +2082,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#expressive-means",
     "title": "Изобразительно-выразительные средства языка",
     "keywords": [
@@ -2104,7 +2104,7 @@
     "subject": "Русский язык",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/russian-10-11.html",
+    "page": "pages/russian-10-11.html",
     "hash": "#essay-checklist",
     "title": "Чек-лист для хорошего сочинения",
     "keywords": [
@@ -2125,7 +2125,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#digits-numbers",
     "title": "Цифры. Числа",
     "keywords": ["цифры", "числа", "натуральные числа", "счёт", "числовой ряд"]
@@ -2136,7 +2136,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#number-composition",
     "title": "Состав числа",
     "keywords": [
@@ -2154,7 +2154,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#place-value-add-subtract",
     "title": "Разряды чисел. Сложение. Вычитание",
     "keywords": [
@@ -2174,7 +2174,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#multiplication",
     "title": "Умножение. Свойства умножения",
     "keywords": [
@@ -2192,7 +2192,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#division",
     "title": "Деление. Свойства деления",
     "keywords": [
@@ -2210,7 +2210,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#find-unknown",
     "title": "Как найти неизвестное: слагаемое, вычитаемое, уменьшаемое, множитель, делимое и делитель",
     "keywords": [
@@ -2231,7 +2231,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#order-of-operations",
     "title": "Порядок выполнения действий",
     "keywords": [
@@ -2249,7 +2249,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#units",
     "title": "Единицы измерения. Длина, время, масса",
     "keywords": [
@@ -2272,7 +2272,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#addition-table",
     "title": "Таблица сложения",
     "keywords": ["таблица сложения", "сложение", "сумма", "до 10", "до 20"]
@@ -2283,7 +2283,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#multiplication-table",
     "title": "Таблица умножения",
     "keywords": [
@@ -2305,7 +2305,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#geometry-objects",
     "title": "Геометрические объекты",
     "keywords": [
@@ -2323,7 +2323,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#figures",
     "title": "Геометрические фигуры: плоские и объёмные",
     "keywords": [
@@ -2345,7 +2345,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#perimeter-area-volume",
     "title": "Периметр, площадь, объём. Единицы измерения",
     "keywords": [
@@ -2365,7 +2365,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#perimeter-formulas",
     "title": "Формулы периметра",
     "keywords": [
@@ -2383,7 +2383,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#area-formulas",
     "title": "Формулы площади",
     "keywords": [
@@ -2401,7 +2401,7 @@
     "subject": "Математика",
     "gradeBand": "2-4",
     "grade": "2–4 класс",
-    "page": "/pages/math-2-4.html",
+    "page": "pages/math-2-4.html",
     "hash": "#volume-formulas",
     "title": "Формулы объёма",
     "keywords": [
@@ -2419,7 +2419,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#integers-place-value",
     "title": "Какие целые числа бывают? Разряды чисел",
     "keywords": [
@@ -2438,7 +2438,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#add-subtract",
     "title": "Сложение, вычитание. Свойства сложения и вычитания",
     "keywords": [
@@ -2457,7 +2457,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#multiplication",
     "title": "Умножение. Свойства умножения",
     "keywords": [
@@ -2474,7 +2474,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#division",
     "title": "Деление. Свойства деления",
     "keywords": [
@@ -2492,7 +2492,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#divisibility",
     "title": "Признаки делимости",
     "keywords": [
@@ -2511,7 +2511,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#factorization",
     "title": "Разложение на множители",
     "keywords": [
@@ -2529,7 +2529,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#fractions",
     "title": "Обыкновенные дроби",
     "keywords": [
@@ -2547,7 +2547,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#percentages",
     "title": "Проценты",
     "keywords": [
@@ -2566,7 +2566,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#equations",
     "title": "Решение простых уравнений",
     "keywords": [
@@ -2584,7 +2584,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#order-of-operations",
     "title": "Порядок выполнения действий",
     "keywords": [
@@ -2603,7 +2603,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#perimeter-formulas",
     "title": "Формулы периметра",
     "keywords": [
@@ -2621,7 +2621,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#area-formulas",
     "title": "Формулы площади",
     "keywords": [
@@ -2640,7 +2640,7 @@
     "subject": "Математика",
     "gradeBand": "5-6",
     "grade": "5–6 класс",
-    "page": "/pages/math-5-6.html",
+    "page": "pages/math-5-6.html",
     "hash": "#volume-formulas",
     "title": "Формулы объёма",
     "keywords": ["объём", "формулы", "V", "куб", "параллелепипед", "призма"]
@@ -2651,7 +2651,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#notation",
     "title": "Условные обозначения",
     "keywords": [
@@ -2672,7 +2672,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#powers",
     "title": "Свойства степеней",
     "keywords": [
@@ -2691,7 +2691,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#roots",
     "title": "Свойства корней",
     "keywords": [
@@ -2709,7 +2709,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#triangles",
     "title": "Свойства треугольников",
     "keywords": [
@@ -2727,7 +2727,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#identities",
     "title": "Формулы сокращённого умножения",
     "keywords": [
@@ -2746,7 +2746,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#polynomial-factorization",
     "title": "Разложение многочлена на множители",
     "keywords": [
@@ -2764,7 +2764,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#function-graphs",
     "title": "Графики функций и их свойства",
     "keywords": [
@@ -2783,7 +2783,7 @@
     "subject": "Математика",
     "gradeBand": "7-8",
     "grade": "7–8 класс",
-    "page": "/pages/math-7-8.html",
+    "page": "pages/math-7-8.html",
     "hash": "#quadratic-equation",
     "title": "Решение квадратного уравнения",
     "keywords": [
@@ -2801,7 +2801,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#powers",
     "title": "Свойства степеней",
     "keywords": ["степени", "свойства", "упрощение", "a^n"]
@@ -2812,7 +2812,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#roots",
     "title": "Свойства корней",
     "keywords": ["корни", "свойства", "упрощение", "логика преобразований"]
@@ -2823,7 +2823,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#triangles",
     "title": "Свойства треугольников",
     "keywords": [
@@ -2841,7 +2841,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#identities",
     "title": "Как упрощать вычисления. Формулы сокращённого умножения",
     "keywords": [
@@ -2859,7 +2859,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#quadratic-equation",
     "title": "Уравнения. Решение квадратного уравнения",
     "keywords": [
@@ -2877,7 +2877,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#functions-properties",
     "title": "Функции. Свойства функций",
     "keywords": [
@@ -2896,7 +2896,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#function-types",
     "title": "Виды функций и их графики: линейная, квадратичная, степенная, дробно-рациональная",
     "keywords": [
@@ -2916,7 +2916,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#arithmetic-progression",
     "title": "Арифметическая прогрессия",
     "keywords": [
@@ -2934,7 +2934,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#geometric-progression",
     "title": "Геометрическая прогрессия",
     "keywords": [
@@ -2952,7 +2952,7 @@
     "subject": "Математика",
     "gradeBand": "9",
     "grade": "9 класс",
-    "page": "/pages/math-9.html",
+    "page": "pages/math-9.html",
     "hash": "#oge-review",
     "title": "Что повторить перед ОГЭ",
     "keywords": [
@@ -2971,7 +2971,7 @@
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/math-10-11.html",
+    "page": "pages/math-10-11.html",
     "hash": "#powers",
     "title": "Свойства степеней",
     "keywords": ["степени", "свойства", "упрощение", "логика преобразований"]
@@ -2982,7 +2982,7 @@
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10-11 класс",
-    "page": "/pages/math-10-11.html",
+    "page": "pages/math-10-11.html",
     "hash": "#roots",
     "title": "Свойства корней",
     "keywords": ["корни", "свойства", "упрощение", "логика преобразований"]
@@ -2993,7 +2993,7 @@
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/math-10-11.html",
+    "page": "pages/math-10-11.html",
     "hash": "#functions-properties",
     "title": "Функции. Свойства функций",
     "keywords": [
@@ -3012,7 +3012,7 @@
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/math-10-11.html",
+    "page": "pages/math-10-11.html",
     "hash": "#function-types",
     "title": "Виды функций и их графики",
     "keywords": [
@@ -3032,7 +3032,7 @@
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/math-10-11.html",
+    "page": "pages/math-10-11.html",
     "hash": "#trigonometry",
     "title": "Формулы тригонометрии",
     "keywords": [
@@ -3053,7 +3053,7 @@
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/math-10-11.html",
+    "page": "pages/math-10-11.html",
     "hash": "#derivatives",
     "title": "Таблица производных",
     "keywords": [
@@ -3073,7 +3073,7 @@
     "subject": "Математика",
     "gradeBand": "10-11",
     "grade": "10–11 класс",
-    "page": "/pages/math-10-11.html",
+    "page": "pages/math-10-11.html",
     "hash": "#stereometry",
     "title": "Стереометрия",
     "keywords": [

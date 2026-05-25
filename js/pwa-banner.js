@@ -1,5 +1,9 @@
 (function () {
-  const basePath = window.location.pathname.includes('/pages/') ? '../' : '';
+  const BASE_PATH = location.pathname.includes('/pwa-cheatsheet/')
+    ? '/pwa-cheatsheet'
+    : '';
+
+  const withBase = (path) => `${BASE_PATH}${path}`;
 
   const BANNER_DISMISSED_KEY = 'pwaBannerDismissedAt';
   const DISMISS_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
@@ -14,7 +18,7 @@
         </p>
       </div>
       <div class="pwa__icon-wrapper">
-        <img src="${basePath}icons/pwa__download-icon.svg" />
+        <img src="${withBase('/icons/pwa__download-icon.svg')}" />
       </div>
       <button type="button" class="pwa__close">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

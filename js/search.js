@@ -5,7 +5,15 @@ const searchResults = document.getElementById('search-results');
 const pageToc = document.getElementById('page-toc');
 const body = document.body;
 
-const SEARCH_INDEX_URL = '../data/search-index.json';
+const BASE_PATH = location.pathname.includes('/pwa-cheatsheet/')
+  ? '/pwa-cheatsheet'
+  : '';
+
+const withBase = (path) => `${BASE_PATH}${path}`;
+
+const SEARCH_INDEX_URL = withBase('/data/search-index.json');
+const ARROW_ICON_URL = withBase('/icons/arw-rght.svg');
+
 const MAX_RESULTS = 24;
 
 let searchIndex = [];
@@ -29,6 +37,23 @@ function escapeHtml(value = '') {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+function normalizePageUrl(path = '') {
+  if (!path) return '#';
+
+  if (
+    path.startsWith('#') ||
+    path.startsWith('http://') ||
+    path.startsWith('https://') ||
+    path.startsWith('mailto:') ||
+    path.startsWith('tel:')
+  ) {
+    return path;
+  }
+
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  return withBase(cleanPath);
 }
 
 async function loadSearchIndex() {
@@ -126,7 +151,7 @@ function groupResults(items) {
 function renderItemsList(items, options = {}) {
   const {
     showGrade = true,
-    hrefBuilder = (item) => `${item.page || ''}${item.hash || ''}`,
+    hrefBuilder = (item) => normalizePageUrl(`${item.page || ''}${item.hash || ''}`),
   } = options;
 
   return `
@@ -138,7 +163,7 @@ function renderItemsList(items, options = {}) {
               ${showGrade ? `<p class="search-results__grade font-s">${escapeHtml(item.grade || '')}</p>` : ''}
               <p class="search-results__title font-m">${escapeHtml(item.title || '')}</p>
             </div>
-            <img src="../icons/arw-rght.svg" class="search-results__arrow" alt="" aria-hidden="true" />
+            <img src="${escapeHtml(ARROW_ICON_URL)}" class="search-results__arrow" alt="" aria-hidden="true" />
           </a>
         `)
         .join('')}
