@@ -19,11 +19,6 @@
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
-    },
-    {
-      "src": "/pwa-cheatsheet/icons/icon-app__svg.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
     }
   ]
 }
