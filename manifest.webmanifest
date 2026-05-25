@@ -1,9 +1,9 @@
 {
   "name": "PWA-testing",
   "short_name": "PWA",
-  "id": "/",
-  "start_url": "/",
-  "scope": "/",
+  "id": "/pwa-cheatsheet/",
+  "start_url": "/pwa-cheatsheet/",
+  "scope": "/pwa-cheatsheet/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
