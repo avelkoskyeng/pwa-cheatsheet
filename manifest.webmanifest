@@ -9,17 +9,19 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/icons/icon-app__512.png",
+      "src": "/pwa-cheatsheet/icons/icon-app__512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-app__192.png",
+      "src": "/pwa-cheatsheet/icons/icon-app__192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-app__svg.svg",
+      "src": "/pwa-cheatsheet/icons/icon-app__svg.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
