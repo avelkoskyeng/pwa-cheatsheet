@@ -199,11 +199,11 @@ body {
 nav,
 header,
 aside {
-  width: clamp(376px, 100%, 624px);
+  width: min(100%, 624px);
   margin: auto;
 }
 main {
-  width: clamp(344px, calc(100% - 32px), 624px);
+  width: min(calc(100% - 32px), 624px);
   margin: auto;
 }
 

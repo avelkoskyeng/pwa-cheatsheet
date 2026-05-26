@@ -23,7 +23,7 @@ main {
 
 .header__content {
   padding: 10px 0;
-  width: clamp(344px, calc(100% - 32px), 624px);
+  width: min(calc(100% - 32px), 624px);
   margin: auto;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
