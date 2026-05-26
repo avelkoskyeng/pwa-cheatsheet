@@ -5,7 +5,8 @@ const searchResults = document.getElementById('search-results');
 const pageToc = document.getElementById('page-toc');
 const body = document.body;
 
-const SEARCH_INDEX_URL = '../data/search-index.json';
+const isIndexPage = !window.location.pathname.includes('/pages/');
+const SEARCH_INDEX_URL = isIndexPage ? 'data/search-index.json' : '../data/search-index.json';
 const MAX_RESULTS = 24;
 
 let searchIndex = [];
@@ -132,15 +133,21 @@ function renderItemsList(items, options = {}) {
   return `
     <div class="search-results__list">
       ${items
-        .map((item) => `
-          <a class="search-results__item" href="${escapeHtml(hrefBuilder(item))}">
+        .map((item) => {
+          let href = escapeHtml(hrefBuilder(item));
+          if (href.includes('.html') && isIndexPage && window.BASE_PATH) {
+            href = window.BASE_PATH + '/' + href;
+          }
+          return `
+          <a class="search-results__item" href="${href}">
             <div class="search-results__text">
               ${showGrade ? `<p class="search-results__grade font-s">${escapeHtml(item.grade || '')}</p>` : ''}
               <p class="search-results__title font-m">${escapeHtml(item.title || '')}</p>
             </div>
             <img src="../icons/arw-rght.svg" class="search-results__arrow" alt="" aria-hidden="true" />
           </a>
-        `)
+        `;
+        })
         .join('')}
     </div>
   `;
@@ -266,3 +273,9 @@ loadSearchIndex().then(() => {
   renderPageToc();
   updateSearch();
 });
+
+if (window.BASE_PATH && isIndexPage) {
+  document.querySelectorAll('[data-href]').forEach(link => {
+    link.href = window.BASE_PATH + '/' + link.getAttribute('data-href');
+  });
+}
