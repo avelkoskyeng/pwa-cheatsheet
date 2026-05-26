@@ -6,7 +6,7 @@
   background-color: var(--orange90);
   display: flex;
   justify-content: space-between;
-  gap: 16px;
+  gap: 70px;
   border-radius: 16px;
   padding: 16px;
 }
@@ -31,6 +31,15 @@
   align-items: flex-start;
   width: 62px;
   height: 70px;
+
+  position: absolute;
+  right: 45px;
+  bottom: 5px;
+}
+@media (max-width: 320px) {
+  .pwa__icon-wrapper {
+    right: 25px;
+  }
 }
 .pwa[hidden] {
   display: none;

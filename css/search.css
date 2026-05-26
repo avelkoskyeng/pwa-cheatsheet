@@ -84,7 +84,7 @@ body.search-active .search-shell {
 }
 
 .search-box {
-  width: clamp(344px, calc(100% - 32px), 624px);
+  width: min(calc(100% - 32px), 624px);
   margin: auto;
   position: relative;
 }
