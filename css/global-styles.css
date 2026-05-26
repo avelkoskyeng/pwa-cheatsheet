@@ -134,9 +134,11 @@ button {
 }
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   background-color: var(--grey);
+  padding-bottom: 40px;
 }
 .no-wrap {
   white-space: nowrap;

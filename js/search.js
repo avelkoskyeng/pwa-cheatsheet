@@ -223,6 +223,13 @@ function setSearchState(isActive) {
   body.classList.toggle('search-active', isActive);
 }
 
+function closeSearchOverlay() {
+  if (!searchResults) return;
+
+  renderResults([], '');
+  setSearchState(false);
+}
+
 async function updateSearch() {
   if (!input) return;
 
@@ -261,6 +268,21 @@ if (clearBtn && input) {
   });
 }
 
+if (searchResults) {
+  searchResults.addEventListener('click', (event) => {
+    const link = event.target.closest('a');
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    if (!href) return;
+
+    const targetUrl = new URL(href, window.location.href);
+    if (targetUrl.pathname === window.location.pathname) {
+      closeSearchOverlay();
+    }
+  });
+}
+
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && input) {
     input.value = '';
@@ -274,8 +296,9 @@ loadSearchIndex().then(() => {
   updateSearch();
 });
 
-if (window.BASE_PATH && isIndexPage) {
+if (isIndexPage) {
   document.querySelectorAll('[data-href]').forEach(link => {
-    link.href = window.BASE_PATH + '/' + link.getAttribute('data-href');
+    const basePath = window.BASE_PATH || '';
+    link.href = basePath + '/' + link.getAttribute('data-href');
   });
 }

@@ -77,8 +77,9 @@ body.search-active .search-shell {
   z-index: 1000;
   width: 100%;
   background: var(--w);
-  padding: 16px 0;
+  padding: 12px 0;
   overflow-y: auto;
+  height: unset;
   /* scrollbar-gutter: stable both-edges; */
 }
 
@@ -89,7 +90,7 @@ body.search-active .search-shell {
 }
 
 body.search-active .search-results {
-  padding: 16px 0 16px;
+  padding: 16px 0 0 0;
 }
 
 .search-results__group {

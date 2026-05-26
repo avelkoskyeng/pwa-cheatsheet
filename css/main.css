@@ -1,6 +1,6 @@
 .header--main {
   background-color: var(--orange90);
-  border-radius: 16px;
+  border-radius: 0 0 16px 16px;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -68,34 +68,46 @@
 .subject__content {
   display: flex;
   justify-content: space-between;
+  gap: 12px;
+  min-width: 0;
 }
+
 .subject__text {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 .subject__subtitle {
   color: var(--b64);
 }
 .subject__img {
-  width: 90px;
+  position: relative;
+  flex: 0 0 50px;
+  width: auto;
   height: 0;
+  min-width: 0;
   overflow: visible;
-  img {
-    position: relative;
-  }
-  .pencil {
-    left: -15.82px;
-    top: -52.06px;
-  }
-  .earphone {
-    left: -11.54px;
-    top: -31.3px;
-  }
-  .workbook {
-    left: 12px;
-    top: -29px;
-  }
+}
+
+.subject__img img {
+  position: absolute;
+  right: 0;
+  max-width: none;
+  display: block;
+}
+
+.subject__img .pencil {
+  transform: translate(40px, -52px);
+}
+
+.subject__img .earphone {
+  transform: translate(60px, -31px);
+}
+
+.subject__img .workbook {
+  transform: translate(40px, -29px);
 }
 .subject__nav {
   display: flex;

@@ -4,9 +4,15 @@ header {
   background-color: var(--w);
 }
 nav {
-  padding: 4px 0;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 12px 0;
 }
-header {
+.header--subject {
+  position: sticky;
+  top: 60px;
+  z-index: 10;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
 main {
@@ -14,9 +20,7 @@ main {
   flex-direction: column;
   gap: 24px;
 }
-body.search-active .search-shell {
-  padding: 4px 0 16px;
-}
+
 .header__content {
   padding: 10px 0;
   width: clamp(344px, calc(100% - 32px), 624px);
