@@ -67,6 +67,7 @@ const PRECACHE_URLS = [
   BASE_PATH + "/icons/icon-app__192.png",
   BASE_PATH + "/icons/icon-app__512.png",
   BASE_PATH + "/icons/icon-app__svg.svg",
+  BASE_PATH + "/icons/favicon.svg",
   BASE_PATH + "/icons/lightning.svg",
   BASE_PATH + "/icons/logo_white.svg",
   BASE_PATH + "/icons/pwa__download-icon.svg",
@@ -101,7 +102,8 @@ const PRECACHE_URLS = [
   BASE_PATH + "/pages/russian-2-4.html",
   BASE_PATH + "/pages/russian-5-6.html",
   BASE_PATH + "/pages/russian-7-8.html",
-  BASE_PATH + "/pages/russian-9.html"
+  BASE_PATH + "/pages/russian-9.html",
+  BASE_PATH + "/404.html"
 ];
 
 self.addEventListener("install", (event) => {
