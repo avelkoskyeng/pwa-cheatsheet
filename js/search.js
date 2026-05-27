@@ -135,8 +135,16 @@ function renderItemsList(items, options = {}) {
       ${items
         .map((item) => {
           let href = escapeHtml(hrefBuilder(item));
-          if (href.includes('.html') && isIndexPage && window.BASE_PATH) {
-            href = window.BASE_PATH + '/' + href;
+          // Обработка ссылок на другие страницы
+          if (href.includes('.html')) {
+            // Если это относительный путь (../pages/...), убираем ../
+            if (href.startsWith('../')) {
+              href = href.substring(3);
+            }
+            // Если BASE_PATH существует и путь не абсолютный, добавляем BASE_PATH
+            if (window.BASE_PATH && !href.startsWith('/')) {
+              href = window.BASE_PATH + '/' + href;
+            }
           }
           return `
           <a class="search-results__item" href="${href}">
