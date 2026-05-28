@@ -135,6 +135,7 @@ button {
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  scroll-padding-top: 150px;
 }
 body {
   background-color: var(--grey);

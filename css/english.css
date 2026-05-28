@@ -262,8 +262,21 @@
   .info-list__part--row {
     align-items: center;
   }
-  .info-list__part-col:not(:last-child) {
-    border-bottom: 2px solid var(--w);
+  .info-list__part-col:has(+ .info-list__part-col) {
+    position: relative;
+  }
+
+  .info-list__part-col:has(+ .info-list__part-col)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    height: 2px;
+    background-color: var(--w);
+  }
+  .info-list__part-col.--center {
+    text-align: center;
   }
 }
 
