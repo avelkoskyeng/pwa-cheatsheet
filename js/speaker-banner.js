@@ -98,8 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cheatsItems = document.querySelectorAll(".cheats__item");
 
   cheatsItems.forEach((item) => {
-  // Skip items explicitly marked to not receive a speaker banner.
-  // Two possible markers are supported:
+  //  Для исключений:
   //  - CSS class: "no-speaker-banner"
   //  - data attribute: data-no-speaker-banner="true"
   if (item.classList.contains("no-speaker-banner") || item.dataset.noSpeakerBanner === "true") return;
