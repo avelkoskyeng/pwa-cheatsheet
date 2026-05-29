@@ -72,6 +72,7 @@ const PRECACHE_URLS = [
   BASE_PATH + "/icons/logo_white.svg",
   BASE_PATH + "/icons/pwa__download-icon.svg",
   BASE_PATH + "/icons/speaker__icon.svg",
+  BASE_PATH + "/icons/scroll-up__btn.svg",
   BASE_PATH + "/icons/zoom.svg",
   BASE_PATH + "/imgs/apple.svg",
   BASE_PATH + "/imgs/apple_small.svg",

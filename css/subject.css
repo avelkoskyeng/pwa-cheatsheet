@@ -319,3 +319,21 @@ sub {
 .--width100 {
   width: 100%;
 }
+
+.scroll-up__container {
+  width: min(calc(100% - 32px), 624px);
+  padding-bottom: 16px;
+  padding-right: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: flex-end;
+  .scroll-up__button {
+    display: block;
+    img {
+      display: block;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "name": "PWA-testing",
-  "short_name": "PWA",
+  "name": "Шпаргалки",
+  "short_name": "Шпаргалки",
   "id": "./",
   "start_url": "./",
   "scope": "./",
